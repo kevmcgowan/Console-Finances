@@ -1,18 +1,22 @@
 
-
-
 //Total Number of Months in the DataSet.   
+var totalNumMonths = finances.length;
 
-
-var profLoss = finances.map(d => d[1]);
-
-//Total Profit & Losses
+//Profits & Losses
 var sum = 0;
-var change = 0;
+for (let i = 0; i < totalNumMonths; i++) {
+  sum += finances[i][1];
+}
+
+// Average Change in Profit/Loss over the period
 
 
-console.log('Total Months: ' + finances.length)
-console.log('Total: $' )
+
+
+
+
+console.log(`Total Months:  ${totalNumMonths}`);
+console.log(`Total: $ ${sum}`);
 console.log('Average Change: ')
 console.log('Greatest Increase in Profits: $')
 console.log('Greatest Decrease in Profits: $')
