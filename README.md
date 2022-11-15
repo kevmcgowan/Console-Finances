@@ -35,7 +35,11 @@ When you open your code in the browser your resulting analysis should look simil
 
 * The URL of the deployed application.
 
+https://kevmcgowan.github.io/Console-Finances/
+
 * The URL of the GitHub repository that contains the code.
+
+https://github.com/kevmcgowan/Console-Finances
 
 ---
 
