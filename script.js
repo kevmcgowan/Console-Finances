@@ -17,7 +17,7 @@ for (; i < totalNumMonths; i++) {
 // Average Change in Profit/Loss over the period
 // To calculate monthly change, 
 for ( i = 0; i < finances.length; i++ ) {
-    difference = finances[0][1] - finances[1][1];
+    difference = finances[1][1] - finances[0][1];
     // average =  averageChange / finances.length;
     average = difference.toFixed(2);
 }
